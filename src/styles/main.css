@@ -1,0 +1,88 @@
+
+
+.main-container {
+    padding-top: 70px;
+    /* Espacio para el navbar fijo */
+}
+
+.main-color {
+    color: #4f46e5 !important;
+}
+
+.video-container {
+    width: 640px;
+    max-width: 100%;
+    height: 480px;
+    background: #000;
+    margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+    .video-container {
+        height: auto;
+        aspect-ratio: 4/3;
+    }
+}
+
+/* Inversión de imagen para espejo */
+video {
+    transform: scaleX(-1);
+}
+
+/* Ajustes responsivos */
+@media (max-width: 960px) {
+    .main-content {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color: #213547;
+        background-color: #ffffff;
+    }
+
+    a:hover {
+        color: #747bff;
+    }
+
+    button {
+        background-color: #f9f9f9;
+    }
+}
+
+@media (max-width: 960px) {
+    .demo-section {
+      flex-direction: column;
+    }
+    
+    .camera-column {
+      padding-right: 0 !important;
+      margin-bottom: 2rem;
+    }
+    
+    .detection-column {
+      padding-left: 0 !important;
+    }
+  }
+  
+  /* Mantener relación de aspecto 4:3 en la cámara */
+  .video-container {
+    position: relative;
+    padding-bottom: 75%; /* 4:3 aspect ratio */
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
