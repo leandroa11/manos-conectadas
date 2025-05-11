@@ -1,12 +1,79 @@
-# React + Vite
+# Manos Conectadas 🌐✋
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![GitHub last commit](https://img.shields.io/github/last-commit/tu-usuario/manos-conectadas)](https://github.com/tu-usuario/manos-conectadas)
+[![GitHub repo size](https://img.shields.io/github/repo-size/tu-usuario/manos-conectadas)](https://github.com/tu-usuario/manos-conectadas)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Currently, two official plugins are available:
+Aplicación web para traducción de lengua de señas colombiana (LSC) a texto en tiempo real usando inteligencia artificial.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="screenshot.png" alt="Captura de la aplicación" width="800"/>
 
-## Expanding the ESLint configuration
+## Características Principales 🚀
+- 🎥 Detección de señas en tiempo real mediante webcam
+- 🧠 Modelo CNN entrenado específicamente para LSC
+- 📱 Interfaz responsiva y accesible
+- 🎮 Modo juego interactivo para aprendizaje
+- 🔍 Diccionario visual de señas
+- ⚡ Procesamiento en el cliente con TensorFlow.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologías Utilizadas 🛠️
+
+### Frontend
+- React + TypeScript
+- PrimeReact UI Library
+- TensorFlow.js
+- MediaDevices API
+- React Router
+
+### Backend/IA
+- Python 3.9
+- TensorFlow/Keras
+- OpenCV (preprocesamiento)
+- Scikit-learn (validación)
+
+### Herramientas
+- Vite
+- GitHub Actions (CI/CD)
+- ESLint + Prettier
+- Jupyter Notebook (entrenamiento)
+
+## Instalación Local 💻
+
+1. Clonar repositorio:
+```bash
+git clone https://github.com/tu-usuario/manos-conectadas.git
+cd manos-conectadas
+ ```
+
+2. Instalar dependencias:
+   ```sh
+   npm install
+   ```
+3. Configurar las variables de entorno en un archivo `.env`:
+   ```env
+   REACT_APP_API_URL=http://localhost:5000/api
+   REACT_APP_SECRET_KEY=S3cUr3!K3y@2025
+   ```
+4. Iniciar la aplicación:
+   ```sh
+   npm run dev
+   ```
+## Estructura del Proyecto
+```
+manos-conectadas/
+├── public/              # Archivos estáticos
+├── src/
+│   ├── components/      # Componentes React
+│   ├── models/          # Modelos TF.js
+│   ├── pages/           # Vistas principales
+│   ├── styles/          # CSS global
+│   └── utils/           # Funciones helper
+└── public/  
+```
+
+## Contribuciones
+Las contribuciones son bienvenidas. Para colaborar:
+1. Crea un fork del repositorio.
+2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza cambios y súbelos (`git commit -m "Descripción del cambio"`).
+4. Envía un Pull Request.
