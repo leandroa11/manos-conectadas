@@ -85,7 +85,7 @@ const FeaturesSection = () => {
           label="Probar Demo Ahora" 
           icon="pi pi-play" 
           className="p-button-raised p-button-lg" 
-          onClick={() => navigate('/demo')}
+          onClick={() => navigate('/practica')}
         />
       </div>
     </div>

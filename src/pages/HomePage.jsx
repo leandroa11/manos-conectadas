@@ -22,7 +22,7 @@ const HomePage = () => {
             label="Probar Demo"
             icon="pi pi-camera"
             className="p-button-raised"
-            onClick={() => navigate('/demo')}
+            onClick={() => navigate('/practica')}
           />
         </section>
       </div>
