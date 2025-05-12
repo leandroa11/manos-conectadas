@@ -16,7 +16,6 @@ const DemoPage = () => {
                         <Card className="h-full" title="Visualización en Tiempo Real" >
                             <CameraView
                                 onDetection={setDetectedLetter}
-                                showStatus={gameStatus === 'playing'}
                             />
                         </Card>
                     </div>
