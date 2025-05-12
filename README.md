@@ -5,8 +5,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Aplicación web para traducción de lengua de señas colombiana (LSC) a texto en tiempo real usando inteligencia artificial.
+![Captura de pantalla 2025-05-11 185312](https://github.com/user-attachments/assets/df57e777-f099-4445-8449-d94060b5df7c)
 
-<img src="![image](https://github.com/user-attachments/assets/c08fb581-a859-4f0f-b3fd-4e34abdb4e70)
+
 " alt="Captura de la aplicación" width="800"/>
 
 ## Características Principales 🚀
