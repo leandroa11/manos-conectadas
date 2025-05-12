@@ -49,12 +49,7 @@ cd manos-conectadas
    ```sh
    npm install
    ```
-3. Configurar las variables de entorno en un archivo `.env`:
-   ```env
-   REACT_APP_API_URL=http://localhost:5000/api
-   REACT_APP_SECRET_KEY=S3cUr3!K3y@2025
-   ```
-4. Iniciar la aplicación:
+3. Iniciar la aplicación:
    ```sh
    npm run dev
    ```
