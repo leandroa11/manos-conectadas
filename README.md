@@ -6,7 +6,8 @@
 
 Aplicación web para traducción de lengua de señas colombiana (LSC) a texto en tiempo real usando inteligencia artificial.
 
-<img src="screenshot.png" alt="Captura de la aplicación" width="800"/>
+<img src="![image](https://github.com/user-attachments/assets/c08fb581-a859-4f0f-b3fd-4e34abdb4e70)
+" alt="Captura de la aplicación" width="800"/>
 
 ## Características Principales 🚀
 - 🎥 Detección de señas en tiempo real mediante webcam
