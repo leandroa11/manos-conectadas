@@ -9,7 +9,7 @@ const DemoPage = () => {
 
     return (
         <div className="main-content flex justify-content-center" style={{ minHeight: '60vh' }}>
-            <div className="grid p-4">
+            <div className="grid w-full">
                 {/* Columna Cámara */}
                 <div className="col-12 md:col-4 flex justify-content-center align-items-start">
                     <div className="mt-4 md:mt-0 pl-0 md:pl-3 text-center" style={{ width: '100%', height: '100%' }}>
