@@ -14,10 +14,8 @@ const SignDictionary = () => {
         D: '/assets/letters/D/D1.jpg',
         E: '/assets/letters/E/E1.jpg',
         F: '/assets/letters/F/F1.jpg',
-        G: '/assets/letters/G/G1.jpg',
         H: '/assets/letters/H/H1.jpg',
         I: '/assets/letters/I/I1.jpg',
-        J: '/assets/letters/J/J1.jpg',
         K: '/assets/letters/K/K1.jpg',
         L: '/assets/letters/L/L1.jpg',
         M: '/assets/letters/M/M1.jpg',
@@ -26,14 +24,12 @@ const SignDictionary = () => {
         P: '/assets/letters/P/P1.jpg',
         Q: '/assets/letters/Q/Q1.jpg',
         R: '/assets/letters/R/R1.jpg',
-        S: '/assets/letters/S/S1.jpg',
         T: '/assets/letters/T/T1.jpg',
         U: '/assets/letters/U/U1.jpg',
         V: '/assets/letters/V/V1.jpg',
         W: '/assets/letters/W/W1.jpg',
         X: '/assets/letters/X/X1.jpg',
         Y: '/assets/letters/Y/Y1.jpg',
-        Z: '/assets/letters/Z/Z1.jpg',
     };
 
     const search = (event) => {
