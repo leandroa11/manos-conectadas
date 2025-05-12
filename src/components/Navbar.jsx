@@ -11,9 +11,9 @@ const Navbar = () => {
       command: () => navigate('/')
     },
     {
-      label: 'Demo',
+      label: 'Práctica',
       icon: 'pi pi-camera',
-      command: () => navigate('/demo')
+      command: () => navigate('/practica')
     },
     {
       label: 'Juega',

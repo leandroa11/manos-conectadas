@@ -106,7 +106,7 @@ const GamePage = () => {
         {/* Columna Cámara */}
         <div className="col-12 md:col-4 flex justify-content-center align-items-start">
           <div className="mt-4 md:mt-0 pl-0 md:pl-3 text-center" style={{ width: '100%', height: '100%' }}>
-            <Card className="h-full" title="Resultado de Detección" >
+            <Card className="h-full" title="Visualización en Tiempo Real" >
               <CameraView
                 onDetection={handleDetection}
                 showStatus={gameStatus === 'playing'}
