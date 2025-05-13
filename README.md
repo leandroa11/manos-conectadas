@@ -28,10 +28,9 @@ Aplicación web para traducción de lengua de señas colombiana (LSC) a texto en
 - React Router
 
 ### Backend/IA
-- Python 3.9
+- Python 3.11.4
 - TensorFlow/Keras
 - OpenCV (preprocesamiento)
-- Scikit-learn (validación)
 
 ### Herramientas
 - Vite
